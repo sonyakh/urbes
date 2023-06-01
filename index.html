@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Urbes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Urbes</h1>
+        <ul class="menu">
+            <li>
+                <a href="#">Сities</a>
+                <ul>
+                    <li><a href="#">London</a></li>
+                    <li>
+                        <a href="#">Dubai</a>
+                        <ul>
+                            <li><a href="#">Animation</a></li>
+                            <li><a href="#slider">3D slider</a></li>
+                            <li><a href="#image">Image</a></li>
+                            <li><a href="#video">Video</a></li>
+                            <li><a href="#cube">3D cube</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Paris</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section class="parallax">
+        <img src="img/stars.png" id="stars">
+        <img src="img/burjkhalifa1.png" id="burjkhalifa">
+        <img src="img/building2.png" id="building">
+        <img src="img/dubai.png" id="dubaitext">
+    </section>
+
+    <section class="sec">
+        <div class="container">
+            <h2>Dubai - United Arab Emirates</h2>
+            <p>Dubai is a city of contrasts, where modernity and tradition blend seamlessly together to create a truly
+                unique experience. Known for its towering skyscrapers, luxurious shopping centers, and opulent hotels,
+                Dubai is a hub of innovation and extravagance. <br><br>
+
+                At the center of Dubai's skyline is the iconic Burj Khalifa,
+                the tallest building in the world, which boasts breathtaking views of the city from
+                its observation deck on the 148th floor. The city's other architectural marvels include the Burj Al Arab,
+                an impressive sail-shaped hotel that has become a symbol of Dubai's opulence, and the Dubai Mall, one of the
+                largest shopping centers in the world, which houses an aquarium, an ice rink, and even a dinosaur skeleton.
+                <br><br></p>
+        </div>
+    </section>
+
+    <section class="threeD_slider" id="slider">
+        <div class="slider">
+            <span style="--i:1;"><img src="img/img1.jpg" alt=""></span>
+            <span style="--i:2;"><img src="img/img2.jpg" alt=""></span>
+            <span style="--i:3;"><img src="img/img3.jpg" alt=""></span>
+            <span style="--i:4;"><img src="img/img4.jpg" alt=""></span>
+            <span style="--i:5;"><img src="img/img5.jpg" alt=""></span>
+            <span style="--i:6;"><img src="img/img6.jpg" alt=""></span>
+            <span style="--i:7;"><img src="img/img7.jpg" alt=""></span>
+            <span style="--i:8;"><img src="img/img8.jpg" alt=""></span>
+        </div>
+    </section>
+
+    <section class="text">
+        <div class="container">
+            <p>Despite its reputation for luxury and excess, Dubai also has a rich cultural heritage that is evident in its
+                historic neighborhoods and traditional souks, where visitors can wander through winding streets and haggle for
+                treasures like gold jewelry and Arabian spices. The city's Jumeirah Mosque is a stunning example of Islamic
+                architecture, and visitors of all faiths are welcome to learn about the history and customs of Islam on a guided tour.
+                <br><br>
+
+                Dubai's bustling nightlife scene is another attraction, with glamorous clubs, rooftop bars, and beachfront
+                lounges offering endless entertainment options. And for those seeking adventure, Dubai offers a range of
+                thrilling experiences, from indoor skiing at Ski Dubai to skydiving over the Palm Jumeirah.</p>
+        </div>
+    </section>
+
+    <section class="static_image" id="image">
+        <div class="container">
+            <div class="image_wrapper">
+                <img class="img1" src="img/img9.jpg" alt="">
+                <img class="img2" src="img/img10.jpg" alt="">
+                <p>All in all, Dubai is a city of superlatives, where the impossible becomes possible and the extraordinary
+                    becomes the norm. It is a place where visitors can experience the best of both worlds, with modern
+                    innovation and ancient traditions coming together to create a truly unforgettable destination.</p>
+            </div>
+        </div>
+    </section>
+    
+     <section class="video_wrapper" id="video">
+         <video src="img/video.mp4" controls></video>
+     </section>
+
+    <h2 class="for_fun">Section for fun</h2>
+    <section class="threeD_cube">
+        <h2>Сlick on the cube --></h2>
+        <div class="cube" id="cube">
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="front"></div>
+            <div class="back"></div>
+        </div>
+        <div class="shadow" id="shadow"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
